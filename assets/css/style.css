@@ -18,6 +18,9 @@ button {
     padding: 10px;
     border-radius: 5px;
 }
+.gif {
+  margin-left: .2%;  
+}
 
 h2 {
     float: left;
@@ -56,12 +59,13 @@ form {
 
 img {
     width: 23vw; 
-    padding: 5px; 
+    padding: 5px;  
+    object-fit: cover;
 }
 
 .imagesHere {
     background-color: #B82601;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     margin: auto;
 }
@@ -70,7 +74,9 @@ img {
     float: left;
     background-color: #813772;
     padding: 10px;
-    margin: 5px;
+    margin: 7px;
+    height: 400px;
+    width: 30%;
 }
 
 p {
