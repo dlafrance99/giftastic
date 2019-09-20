@@ -1,20 +1,38 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 body {
-    background-color: black;
+    background-color: #062f4f;
     color: #ffffff;
-    padding: 20px;
+    
 }
 
 button {
-    background-color: blue;
+    background-color: black;
     color: #ffffff;
     border: none;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+}
+
+h2 {
+    float: left;
+}
+
+#avenger-input {
+    border-radius: 100px;
+    margin-top: 1.7%;
+    margin-left: 1%;
+    padding: 5px;
+    padding-left: 15px;
 }
 
 #add-avenger {
-    background-color: blue;
+    background-color: black;
     color: #ffffff;
     border: none;
     margin: 10px;
@@ -22,3 +40,46 @@ button {
     border-radius: 5px;
 }
 
+form {
+    background-color: #813772;
+    width: 100%;
+    padding: 10px;
+}
+
+#marvelLogo {
+    width: 10%;
+    float: right;
+    position: absolute;
+    right: 10%;
+    margin-top: .4%;
+}
+
+img {
+    width: 23vw; 
+    padding: 5px; 
+}
+
+.imagesHere {
+    background-color: #B82601;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.gifDiv {
+    float: left;
+    background-color: #813772;
+    padding: 10px;
+    margin: 5px;
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.rating {
+    font-size: 35px;
+    font-weight: 800;
+}

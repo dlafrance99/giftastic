@@ -42,10 +42,10 @@ $(document).on("click", ".heroButton", function () {
             var results = response.data;
             console.log(results);
             for (var i = 0; i < results.length; i++) {
-                var gifDiv = $("<div>");
-                var rating = results[i].rating;
+                var gifDiv = $("<div class='gifDiv'>");
+                var rating = results[i].rating.toUpperCase();
                 var heroImg = $("<img>");
-                var p = $("<p>").text("Rating: " + rating);
+                var p = $("<p class='rating'>").text("Rating: " + rating);
                 heroImg.attr("src", results[i].images.original_still.url);
                 heroImg.attr("data-still", results[i].images.original_still.url);
                 heroImg.attr("data-animated",results[i].images.original.url);
